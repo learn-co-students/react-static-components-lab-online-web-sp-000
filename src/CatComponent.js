@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import EinsteinQuoteComponent from './EinsteinQuoteComponent.js'
+
 
 export default class CatComponent extends Component {
   render() {
