@@ -1,6 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import React, { Component } from 'react';
+import CatComponent from './CatComponent.js'
+import FordQuoteComponent from './FordQuoteComponent.js'
+import MouseComponent from './MouseComponent.js'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <CatComponent />
+        <FordQuoteComponent />
+        <MouseComponent />
+      </div>
+    );
+  }
+}
+
+export default App;
