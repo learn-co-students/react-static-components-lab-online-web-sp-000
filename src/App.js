@@ -1,13 +1,16 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import CatComponent from './CatComponent'
+import EinsteinQuoteComponent from './EinsteinQuoteComponent'
+import MouseComponent from './MouseComponent'
 
 class App extends Component {
 	render() {
 		// your code in the return statement below!
 		return (
-			<div className="App">
+			<div>
 				<CatComponent />
-				<GraceHopperQuoteComponent />
-				{/* one more component missing */}
+				<EinsteinQuoteComponent />
+				<MouseComponent />
 			</div>
 		);
 	}
