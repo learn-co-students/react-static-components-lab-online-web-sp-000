@@ -15,4 +15,6 @@ render() {
   }
 }
 
+//this is return ing components that have being imported from the other js files...
+
 export default App;
