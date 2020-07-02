@@ -13,14 +13,14 @@
   "dependencies": {
     "mocha-multi": "^1.0.1",
     "react": "^16.4.1",
-    "react-dom": "^16.4.1",
+    "react-dom": "^16.4.2",
     "react-scripts": "1.1.4",
     "webpack": "^3.11.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "mocha -w ./test/*.js",
+    "test": "mocha --timeout 5000 -w ./test/*.js",
     "eject": "react-scripts eject"
   },
   "devDependencies": {

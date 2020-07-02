@@ -4,7 +4,7 @@ import {GraceHopperQuoteComponent} from './GraceHopperQuoteComponent.js'
 import MouseComponent from './MouseComponent.js'
 
 class App extends Component {
-  render() {
+render() {
     return (
       <div className="App">
         <CatComponent />
