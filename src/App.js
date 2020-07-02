@@ -9,7 +9,7 @@ render() {
       <div className="App">
         <CatComponent />
         <GraceHopperQuoteComponent />
-        <MouseComponent />
+        <MouseComponent /> //but where is the component mounting?
       </div>
     );
   }
