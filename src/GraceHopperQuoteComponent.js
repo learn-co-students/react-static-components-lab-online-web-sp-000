@@ -15,3 +15,4 @@ export class GraceHopperQuoteComponent extends Component {
 		);
 	}
 }
+// standard implementation ... though export can be written differently

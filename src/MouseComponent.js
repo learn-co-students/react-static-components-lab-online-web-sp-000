@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 export default class MouseComponent extends Component {
 
-  componentDidMount() {
-    require("./hoverEffect.js")
-  }
+  // componentDidMount() {
+  //    require("./hoverEffect.js")
+  //  }
   
   render() {
     return (
@@ -14,3 +14,5 @@ export default class MouseComponent extends Component {
     )
   }
 }
+
+//double check where the mounting is called....

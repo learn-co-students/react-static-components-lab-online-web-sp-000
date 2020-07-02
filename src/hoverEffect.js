@@ -1,5 +1,7 @@
 // This script is an altered version of the CodePen made by 'Captain Anonymous': https://codepen.io/anon/pen/jKQoaj
 
+//all these consts in this are global scoped.
+
 const rippleSettings = {
   maxSize: 100,
   animationSpeed: 2,
