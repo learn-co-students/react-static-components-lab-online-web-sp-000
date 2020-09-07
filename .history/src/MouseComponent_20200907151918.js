@@ -13,5 +13,5 @@ export default class MouseComponent extends Component {
       </div>
     )
   }
+  export default MouseComponent
 }
-// export default MouseComponent;
