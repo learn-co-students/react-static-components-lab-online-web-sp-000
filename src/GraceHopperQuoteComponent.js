@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import App from './App';
 
 export class GraceHopperQuoteComponent extends Component {
 	render() {
@@ -15,3 +16,5 @@ export class GraceHopperQuoteComponent extends Component {
 		);
 	}
 }
+
+export default GraceHopperQuoteComponent;
