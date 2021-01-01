@@ -8,4 +8,5 @@ export default class CatComponent extends Component {
       </div>
     );
   }
+  
 }
