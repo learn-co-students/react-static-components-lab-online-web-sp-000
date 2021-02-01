@@ -31,8 +31,23 @@
     "babel-preset-stage-0": "^6.24.1",
     "chai": "^4.1.2",
     "enzyme": "^3.3.0",
-    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-adapter-react-16": "^1.15.6",
     "mocha": "^5.2.0",
     "sinon": "^6.1.0"
-  }
+  },
+  "description": "## Objectives",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeDeGr/react-static-components-lab-online-web-sp-000.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoeDeGr/react-static-components-lab-online-web-sp-000/issues"
+  },
+  "homepage": "https://github.com/JoeDeGr/react-static-components-lab-online-web-sp-000#readme"
 }
